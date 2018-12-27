@@ -115,7 +115,7 @@ export default {
   background: white;
   border: 1px solid #ddd;
   border-radius: .5rem;
-  z-index: 1;
+  z-index: 2;
   transform: translate(-50%, -50%) scale(0);
   transition: all .2s ease;
 }
