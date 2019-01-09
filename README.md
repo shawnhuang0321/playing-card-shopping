@@ -1,4 +1,5 @@
 # vue-shopping-web
+[DEMO](https://shawnhuang0321.github.io/playing-card-shopping/#/)
 
 > A Vue.js project
 
