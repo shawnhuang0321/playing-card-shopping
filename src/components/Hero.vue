@@ -26,7 +26,7 @@ export default {
 
 .hero {
   position: relative;
-  background-image: url(../assets/images/hero.png);
+  background-image: url(../../static/hero.png);
   width: 100%;
   height: 670px;
   background-position: center center;

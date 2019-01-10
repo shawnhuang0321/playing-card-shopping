@@ -38,8 +38,8 @@
         <button class="coupon-btn" @click="useCoupon">套用優惠卷</button>
       </div>
       <div class="btn-group">
-        <button class="btn" @click="showCart = false">手癢繼續逛</button>
-        <button class="btn" @click="toCheckOut">結帳去</button>
+        <button class="btn btn-light" @click="showCart = false">手癢繼續逛</button>
+        <button class="btn btn-accent" @click="toCheckOut">結帳去</button>
       </div>
     </div>
     <div class="basket" @click="showCart = !showCart">
@@ -220,9 +220,24 @@ table {
     cursor: pointer;
     transition: all .2s ease;
 
+  }
+
+  .btn-light {
+
     &:hover, &:focus {
       background: #ffe58d;
       border-color: transparent;
+    }
+  }
+
+  .btn-accent {
+    color: white;
+    background: #fba912;
+
+    &:hover, &:focus {
+      color: #fba912;
+      background: white;
+      border-color: #fba912;
     }
   }
 }
@@ -260,7 +275,7 @@ table {
 @media screen and (max-width: 640px) {
   .cart {
     width: 370px;
-    height: 580px;
+    max-height: 500px;
   }
   .coupon {
 
@@ -280,6 +295,10 @@ table {
       font-size: 12px;
     }
   }
+
+  .list {
+    height: 200px;
+  }
 }
 
 @media screen and (max-width: 374px) {
@@ -292,10 +311,6 @@ table {
     .coupon-btn {
       font-size: .6rem;
     }
-  }
-
-  .list {
-    height: 200px;
   }
 }
 
