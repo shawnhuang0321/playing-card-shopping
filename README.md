@@ -1,7 +1,24 @@
 # vue-shopping-web
-[DEMO](https://shawnhuang0321.github.io/playing-card-shopping/#/)
 
 > A Vue.js project
+
+## Demo
+[DEMO](https://shawnhuang0321.github.io/playing-card-shopping/#/)
+
+## 簡介
+前端練習作品 - 電商前台
+
+### 運用技術
++ Vue cli (2)
++ Vuex
++ Vue Router
++ axios
++ vue swiper
++ VeeValidate
++ 手刻 RWD (Scss)
+
+## 感謝
++ [六角學院 Vue出一個電商](https://www.hexschool.com/vue/)
 
 ## Build Setup
 
